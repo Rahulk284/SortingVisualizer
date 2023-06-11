@@ -227,6 +227,13 @@ export default class SortingVis extends React.Component {
         }
     }
 
+    resetColors() {
+        const arrayBars = document.getElementsByClassName('arrayBar');
+        for (let i = 0; i < arrayBars.length; i++) {
+            arrayBars[i].style.backgroundColor = PRIMARY_COLOR;
+        }
+    }
+
     render(){
         const{array} = this.state;
 

@@ -34,7 +34,7 @@ nav {
     right: 0;
     align-items: center;
     padding: 2rem 3.5rem;
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(213, 213, 213);
     box-shadow: 0 4px 5px rgb(163, 208, 223);
 }
 
@@ -42,7 +42,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     flex-grow: 1; 
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(213, 213, 213);
 }
 
 button {
