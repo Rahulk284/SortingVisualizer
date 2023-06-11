@@ -63,11 +63,23 @@ button:hover{
     color: white;
 }
 
+.slider-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    top: 12.5px;
+    left: 65px;
+}
+
 .slider-container {
-    position: fixed;
-    top: 36px; 
-    left: 365px; 
-    z-index: 999;
+    font-family: sans-serif;
+    font-weight: 800;
+    margin: 10px;
+}
+
+.sizeSpeed {
+    margin-bottom: 5px;
 }
 
 .slider{
@@ -91,7 +103,7 @@ button:hover{
     background: rgb(92, 140, 217);
     cursor: pointer;
 }
-
+/* 
 .sizeSpeed {
     font-family: sans-serif;
     font-weight: 800;
@@ -99,4 +111,4 @@ button:hover{
     top: 34px; 
     left: 47px; 
     z-index: 999;
-}
+} */

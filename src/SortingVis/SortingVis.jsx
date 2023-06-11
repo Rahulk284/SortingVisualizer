@@ -259,9 +259,9 @@ export default class SortingVis extends React.Component {
                         <button onClick={() => this.selectionSort()}>Selection Sort</button>
                     </div>
                     </div>
-                </nav>
+                <div className="slider-wrapper">
                 <div className="slider-container">
-                    <div className="sizeSpeed">Change Array Size & Sorting Speed:</div>
+                    <div className="sizeSpeed">Change Array Size & Sorting Speed</div>
                     <input
                         className="slider"
                         id="changeSize"
@@ -273,6 +273,8 @@ export default class SortingVis extends React.Component {
                         onChange={this.handleChange}
                     />
                 </div>
+                </div>
+                </nav>
             </div>
         );
     }
