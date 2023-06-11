@@ -27,7 +27,7 @@ export default class SortingVis extends React.Component {
         if(!this.isRunning){
             const array = [];
             for (let i = 1; i < size; i++) {
-                array.push(randonInteger(5, 650)); // started the interval at 5 so the smallest bar is still visible in the visual
+                array.push(randonInteger(5, 530)); // started the interval at 5 so the smallest bar is still visible in the visual
             }
             const speed = size < 10 ? 250 : (238 - size) / 4; 
             this.setState({ array, speed });
@@ -260,14 +260,14 @@ export default class SortingVis extends React.Component {
                     </div>
                     </div>
                 </nav>
-                <div className="sizeSpeed">Change Array Size & Sorting Speed:</div>
                 <div className="slider-container">
+                    <div className="sizeSpeed">Change Array Size & Sorting Speed:</div>
                     <input
                         className="slider"
                         id="changeSize"
                         type="range"
                         min="5"
-                        max="200"
+                        max="175"
                         value={this.state.size}
                         style={{background: 'rgb(163, 208, 223)'}}
                         onChange={this.handleChange}

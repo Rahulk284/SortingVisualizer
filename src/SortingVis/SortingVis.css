@@ -33,7 +33,7 @@ nav {
     left: 0;
     right: 0;
     align-items: center;
-    padding: 2rem 3.5rem;
+    padding: 1.5rem 3.5rem;
     background-color: rgb(213, 213, 213);
     box-shadow: 0 4px 5px rgb(163, 208, 223);
 }
@@ -65,8 +65,8 @@ button:hover{
 
 .slider-container {
     position: fixed;
-    top: 42px; 
-    left: 353px; 
+    top: 36px; 
+    left: 365px; 
     z-index: 999;
 }
 
@@ -96,7 +96,7 @@ button:hover{
     font-family: sans-serif;
     font-weight: 800;
     position: fixed;
-    top: 39.8px; 
-    left: 70px; 
+    top: 34px; 
+    left: 47px; 
     z-index: 999;
 }
