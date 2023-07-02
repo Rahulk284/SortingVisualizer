@@ -58,6 +58,11 @@ button {
     transition-duration: 0.4s;
 }
 
+.newArray:hover{
+    background-color: rgb(196, 107, 196);
+    color: white;
+}
+
 button:hover{
     background-color: rgb(133, 230, 133);
     color: white;

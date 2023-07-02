@@ -252,7 +252,7 @@ export default class SortingVis extends React.Component {
                 <nav>
                     <div className="buttons">
                     <div className="button-group">
-                        <button onClick={() => this.resetArray()}>Generate New Array</button>
+                        <button className="newArray" onClick={() => this.resetArray()}>Generate New Array</button>
                         <button onClick={() => this.mergeSort()}>Merge Sort</button>
                         <button onClick={() => this.quickSort()}>Quick Sort</button>
                         <button onClick={() => this.heapSort()}>Heap Sort</button>
